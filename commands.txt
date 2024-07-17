@@ -1,0 +1,16 @@
+  296   git push -u origin first
+  297   git push -u origin main
+  298   git push -u origin main
+  299  conda deactivate firstenv
+  300  clear
+  301  conda create -n secondenv python = 3.8
+  302  conda create -n secondenv python=3.8
+  303  conda create -n secondenv python=3.8
+  304  conda activate secondenv
+  305  conda install numpy pandas\n
+  306  conda env list
+  307  conda env export > secondfile.yml\n
+  308  cat secondfile.yml
+  309  git init
+  310  git add secondfile.yml\n
+  311  git commit -m "Add secondfile.yml file"\n
